@@ -1,0 +1,19 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 189 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.0.229:3000/
+1:18:06 AM [vite] warning: The character ">" is not valid inside a JSX element
+5  |          <h2 className="text-3xl md:text-4xl font-bold text-white">Market & vision</h2>
+6  |          <div className="mt-4 text-blue-100/90 space-y-3 max-w-4xl">
+7  |            <p>The global ETF market is $14.85 trillion, dominated by static products. AI trading is growing >30% annually, and active ETF assets reached $1.03 trillion in 2024.</p>
+   |                                                                                                             ^
+8  |            <p>NeuralShift will launch a compliant MVP focused on TSLA in Q1 2026, then expand across assets. Our roadmap includes reinforcement learning, FCA sandbox entry and multi‑asset expansion.</p>
+9  |          </div>
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/MarketVision.jsx
